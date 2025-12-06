@@ -80,3 +80,4 @@
 - **Supabase**: Supabaseの接続プール設定を使用
 - **Prisma**: Prismaの接続プール設定を使用
 
+
