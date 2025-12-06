@@ -41,7 +41,7 @@ describe("TodosPage", () => {
     (getCurrentUserId as jest.Mock).mockResolvedValue(userId);
     (getTodosByUserId as jest.Mock).mockResolvedValue(mockTodos);
 
-    await TodosPage({ searchParams: {} });
+    await TodosPage({ searchParams: Promise.resolve({}) });
 
     expect(getTodosByUserId).toHaveBeenCalledWith(userId, undefined);
     expect(redirect).not.toHaveBeenCalled();
@@ -50,7 +50,7 @@ describe("TodosPage", () => {
   it("未認証ユーザーの場合、リダイレクトする", async () => {
     (getCurrentUserId as jest.Mock).mockResolvedValue(null);
 
-    await TodosPage({ searchParams: {} });
+    await TodosPage({ searchParams: Promise.resolve({}) });
 
     expect(redirect).toHaveBeenCalledWith("/sign-in");
   });
@@ -63,7 +63,7 @@ describe("TodosPage", () => {
     (getCurrentUserId as jest.Mock).mockResolvedValue(userId);
     (getTodosByUserId as jest.Mock).mockResolvedValue(mockTodos);
 
-    await TodosPage({ searchParams: { projectId } });
+    await TodosPage({ searchParams: Promise.resolve({ projectId }) });
 
     expect(getTodosByUserId).toHaveBeenCalledWith(userId, projectId);
   });

@@ -6,7 +6,7 @@ import { TodoListWithFilters } from "@/components/features/todos/todo-list-with-
 export default async function TodosPage({
   searchParams,
 }: {
-  searchParams: { projectId?: string };
+  searchParams: Promise<{ projectId?: string }>;
 }) {
   const userId = await getCurrentUserId();
 
@@ -14,7 +14,8 @@ export default async function TodosPage({
     redirect("/sign-in");
   }
 
-  const todos = await getTodosByUserId(userId, searchParams.projectId);
+  const params = await searchParams;
+  const todos = await getTodosByUserId(userId, params.projectId);
 
   return <TodoListWithFilters todos={todos} />;
 }

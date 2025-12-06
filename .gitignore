@@ -58,3 +58,5 @@ out/
 # Project specific files
 Docs/status.md
 
+.vercel
+.env*.local

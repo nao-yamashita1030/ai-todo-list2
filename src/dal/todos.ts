@@ -14,8 +14,9 @@ export type TodoWithRelations = Todo & {
  * ユーザーがアクセス可能なTODO一覧を取得
  */
 export async function getTodosByUserId(userId: string, projectId?: string) {
-  // ユーザーがアクセス可能なプロジェクトを取得
-  const accessibleProjects = await prisma.project.findMany({
+  try {
+    // ユーザーがアクセス可能なプロジェクトを取得
+    const accessibleProjects = await prisma.project.findMany({
     where: {
       OR: [
         { ownerId: userId },
@@ -58,15 +59,20 @@ export async function getTodosByUserId(userId: string, projectId?: string) {
     },
   });
 
-  return todos as TodoWithRelations[];
+    return todos as TodoWithRelations[];
+  } catch (error) {
+    console.error("Error fetching todos:", error);
+    throw new Error("データの取得に失敗しました");
+  }
 }
 
 /**
  * TODOをIDで取得
  */
 export async function getTodoById(todoId: string, userId: string) {
-  // ユーザーがアクセス可能なプロジェクトのTODOのみ取得
-  const todo = await prisma.todo.findFirst({
+  try {
+    // ユーザーがアクセス可能なプロジェクトのTODOのみ取得
+    const todo = await prisma.todo.findFirst({
     where: {
       id: todoId,
       project: {
@@ -110,7 +116,11 @@ export async function getTodoById(todoId: string, userId: string) {
     },
   });
 
-  return todo;
+    return todo;
+  } catch (error) {
+    console.error("Error fetching todo:", error);
+    throw new Error("TODOの取得に失敗しました");
+  }
 }
 
 /**

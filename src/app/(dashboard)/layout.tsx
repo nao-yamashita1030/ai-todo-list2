@@ -13,8 +13,13 @@ export default async function DashboardLayout({
     redirect("/sign-in");
   }
 
-  // ユーザー情報をデータベースに同期
-  await syncUser();
+  // ユーザー情報をデータベースに同期（エラーが発生しても続行）
+  try {
+    await syncUser();
+  } catch (error) {
+    console.error("Error in dashboard layout:", error);
+    // エラーが発生してもレイアウトを表示できるように続行
+  }
 
   return <>{children}</>;
 }

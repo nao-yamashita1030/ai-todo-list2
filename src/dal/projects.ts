@@ -5,7 +5,8 @@ import type { Project } from "@prisma/client";
  * ユーザーがアクセス可能なプロジェクト一覧を取得
  */
 export async function getProjectsByUserId(userId: string) {
-  const projects = await prisma.project.findMany({
+  try {
+    const projects = await prisma.project.findMany({
     where: {
       OR: [
         { ownerId: userId },
@@ -34,14 +35,19 @@ export async function getProjectsByUserId(userId: string) {
     },
   });
 
-  return projects;
+    return projects;
+  } catch (error) {
+    console.error("Error fetching projects:", error);
+    throw new Error("プロジェクトの取得に失敗しました");
+  }
 }
 
 /**
  * プロジェクトをIDで取得
  */
 export async function getProjectById(projectId: string, userId: string) {
-  const project = await prisma.project.findFirst({
+  try {
+    const project = await prisma.project.findFirst({
     where: {
       id: projectId,
       OR: [
@@ -72,7 +78,11 @@ export async function getProjectById(projectId: string, userId: string) {
     },
   });
 
-  return project;
+    return project;
+  } catch (error) {
+    console.error("Error fetching project:", error);
+    throw new Error("プロジェクトの取得に失敗しました");
+  }
 }
 
 /**

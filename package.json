@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
@@ -14,7 +14,7 @@
     "test:e2e:ui": "chcp 65001 >nul 2>&1 & playwright test --ui"
   },
   "dependencies": {
-    "@clerk/nextjs": "6.12.9",
+    "@clerk/nextjs": "6.36.0",
     "@hookform/resolvers": "^5.2.2",
     "@prisma/client": "5.11.0",
     "@radix-ui/react-alert-dialog": "^1.1.15",
