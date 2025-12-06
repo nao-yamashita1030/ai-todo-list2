@@ -1,0 +1,6 @@
+jest.config.js
+jest.setup.js
+coverage/
+.next/
+node_modules/
+

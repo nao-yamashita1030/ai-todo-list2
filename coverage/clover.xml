@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1764992186898" clover="3.2.0">
+  <project timestamp="1764992186898" name="All files">
+    <metrics statements="1097" coveredstatements="804" conditionals="466" coveredconditionals="254" methods="149" coveredmethods="82" elements="1712" coveredelements="1140" complexity="0" loc="1097" ncloc="1097" packages="21" files="58" classes="58"/>
+    <package name="src">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="middleware.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\middleware.ts">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="layout.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\layout.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\page.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard)">
+      <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="layout.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\layout.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).projects">
+      <metrics statements="18" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="4" coveredmethods="1"/>
+      <file name="error.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\error.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\page.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).projects.[id].delete">
+      <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\[id]\delete\page.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).projects.[id].edit">
+      <metrics statements="24" coveredstatements="14" conditionals="7" coveredconditionals="6" methods="4" coveredmethods="1"/>
+      <file name="error.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\[id]\edit\error.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\[id]\edit\loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\[id]\edit\page.tsx">
+        <metrics statements="14" coveredstatements="14" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).projects.new">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\projects\new\page.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).todos">
+      <metrics statements="18" coveredstatements="9" conditionals="3" coveredconditionals="2" methods="4" coveredmethods="1"/>
+      <file name="error.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\error.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\page.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).todos.[id]">
+      <metrics statements="22" coveredstatements="12" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="1"/>
+      <file name="error.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\error.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\page.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).todos.[id].delete">
+      <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\delete\page.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="27" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).todos.[id].edit">
+      <metrics statements="32" coveredstatements="21" conditionals="13" coveredconditionals="10" methods="4" coveredmethods="1"/>
+      <file name="error.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\edit\error.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\edit\loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\[id]\edit\page.tsx">
+        <metrics statements="22" coveredstatements="21" conditionals="12" coveredconditionals="10" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="17" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="23" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="34" count="2" type="cond" truecount="4" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.(dashboard).todos.new">
+      <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="page.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\(dashboard)\todos\new\page.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="15" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.app.actions">
+      <metrics statements="200" coveredstatements="162" conditionals="98" coveredconditionals="69" methods="11" coveredmethods="9"/>
+      <file name="comments.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\actions\comments.ts">
+        <metrics statements="55" coveredstatements="45" conditionals="18" coveredconditionals="14" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="55" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="97" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="115" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="125" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="137" count="1" type="stmt"/>
+        <line num="148" count="1" type="stmt"/>
+        <line num="150" count="1" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="166" count="2" type="stmt"/>
+        <line num="167" count="2" type="stmt"/>
+        <line num="169" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="177" count="2" type="stmt"/>
+        <line num="184" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="185" count="1" type="stmt"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="193" count="1" type="stmt"/>
+        <line num="198" count="1" type="stmt"/>
+        <line num="200" count="1" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="205" count="0" type="stmt"/>
+      </file>
+      <file name="projects.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\actions\projects.ts">
+        <metrics statements="58" coveredstatements="49" conditionals="20" coveredconditionals="14" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="77" count="2" type="stmt"/>
+        <line num="79" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="94" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="102" count="1" type="stmt"/>
+        <line num="104" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="117" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="118" count="1" type="stmt"/>
+        <line num="120" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="121" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="134" count="1" type="stmt"/>
+        <line num="135" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+        <line num="138" count="1" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="154" count="2" type="stmt"/>
+        <line num="155" count="2" type="stmt"/>
+        <line num="157" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="165" count="2" type="stmt"/>
+        <line num="172" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="173" count="1" type="stmt"/>
+        <line num="179" count="1" type="stmt"/>
+        <line num="181" count="1" type="stmt"/>
+        <line num="186" count="1" type="stmt"/>
+        <line num="187" count="1" type="stmt"/>
+        <line num="189" count="1" type="stmt"/>
+        <line num="193" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+      </file>
+      <file name="todos.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\app\actions\todos.ts">
+        <metrics statements="87" coveredstatements="68" conditionals="60" coveredconditionals="41" methods="5" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="28" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="66" count="1" type="cond" truecount="2" falsecount="2"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="84" count="1" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="110" count="1" type="stmt"/>
+        <line num="124" count="1" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="143" count="5" type="stmt"/>
+        <line num="144" count="5" type="stmt"/>
+        <line num="146" count="5" type="cond" truecount="1" falsecount="1"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="154" count="5" type="stmt"/>
+        <line num="175" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="186" count="4" type="stmt"/>
+        <line num="187" count="4" type="stmt"/>
+        <line num="190" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="191" count="1" type="stmt"/>
+        <line num="198" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="207" count="4" type="stmt"/>
+        <line num="212" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="220" count="4" type="stmt"/>
+        <line num="223" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="224" count="1" type="stmt"/>
+        <line num="231" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="232" count="1" type="stmt"/>
+        <line num="240" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="241" count="1" type="stmt"/>
+        <line num="248" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="249" count="1" type="stmt"/>
+        <line num="256" count="2" type="stmt"/>
+        <line num="258" count="2" type="stmt"/>
+        <line num="265" count="2" type="stmt"/>
+        <line num="277" count="0" type="stmt"/>
+        <line num="291" count="2" type="stmt"/>
+        <line num="306" count="2" type="stmt"/>
+        <line num="307" count="2" type="stmt"/>
+        <line num="308" count="2" type="stmt"/>
+        <line num="310" count="2" type="stmt"/>
+        <line num="315" count="0" type="stmt"/>
+        <line num="316" count="0" type="stmt"/>
+        <line num="326" count="2" type="stmt"/>
+        <line num="327" count="2" type="stmt"/>
+        <line num="329" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="330" count="0" type="stmt"/>
+        <line num="337" count="2" type="stmt"/>
+        <line num="358" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="359" count="0" type="stmt"/>
+        <line num="366" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="368" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="369" count="1" type="stmt"/>
+        <line num="375" count="1" type="stmt"/>
+        <line num="377" count="1" type="stmt"/>
+        <line num="391" count="1" type="stmt"/>
+        <line num="396" count="1" type="stmt"/>
+        <line num="397" count="1" type="stmt"/>
+        <line num="399" count="1" type="stmt"/>
+        <line num="403" count="0" type="stmt"/>
+        <line num="404" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.common">
+      <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <file name="loading-spinner.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\common\loading-spinner.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="0"/>
+      </file>
+    </package>
+    <package name="src.components.features.projects">
+      <metrics statements="127" coveredstatements="99" conditionals="52" coveredconditionals="29" methods="16" coveredmethods="11"/>
+      <file name="create-project-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\projects\create-project-form.tsx">
+        <metrics statements="35" coveredstatements="30" conditionals="11" coveredconditionals="6" methods="3" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="27" count="17" type="stmt"/>
+        <line num="28" count="17" type="stmt"/>
+        <line num="29" count="17" type="stmt"/>
+        <line num="31" count="17" type="stmt"/>
+        <line num="39" count="17" type="stmt"/>
+        <line num="40" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="46" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="50" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+      </file>
+      <file name="delete-project-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\projects\delete-project-form.tsx">
+        <metrics statements="28" coveredstatements="15" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="edit-project-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\projects\edit-project-form.tsx">
+        <metrics statements="35" coveredstatements="30" conditionals="13" coveredconditionals="7" methods="3" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="40" count="3" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="42" count="10" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="45" count="10" type="stmt"/>
+        <line num="53" count="10" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="55" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="60" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+      </file>
+      <file name="project-list-with-search.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\projects\project-list-with-search.tsx">
+        <metrics statements="29" coveredstatements="24" conditionals="20" coveredconditionals="13" methods="8" coveredmethods="6"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="12" type="stmt"/>
+        <line num="34" count="12" type="stmt"/>
+        <line num="37" count="12" type="stmt"/>
+        <line num="38" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="39" count="3" type="stmt"/>
+        <line num="42" count="9" type="stmt"/>
+        <line num="43" count="9" type="stmt"/>
+        <line num="44" count="18" type="stmt"/>
+        <line num="45" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="46" count="18" type="cond" truecount="2" falsecount="0"/>
+        <line num="70" count="9" type="stmt"/>
+        <line num="72" count="9" type="cond" truecount="1" falsecount="1"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="106" count="21" type="stmt"/>
+        <line num="113" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.features.todos">
+      <metrics statements="346" coveredstatements="212" conditionals="202" coveredconditionals="81" methods="68" coveredmethods="28"/>
+      <file name="comment-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\comment-form.tsx">
+        <metrics statements="31" coveredstatements="26" conditionals="11" coveredconditionals="6" methods="3" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="15" type="stmt"/>
+        <line num="26" count="15" type="stmt"/>
+        <line num="27" count="15" type="stmt"/>
+        <line num="29" count="15" type="stmt"/>
+        <line num="37" count="15" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="41" count="2" type="stmt"/>
+        <line num="42" count="2" type="stmt"/>
+        <line num="44" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="49" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+      </file>
+      <file name="comment-item.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\comment-item.tsx">
+        <metrics statements="59" coveredstatements="44" conditionals="27" coveredconditionals="15" methods="7" coveredmethods="5"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="41" count="5" type="stmt"/>
+        <line num="42" count="17" type="stmt"/>
+        <line num="43" count="17" type="stmt"/>
+        <line num="44" count="17" type="stmt"/>
+        <line num="45" count="17" type="stmt"/>
+        <line num="46" count="17" type="stmt"/>
+        <line num="47" count="17" type="stmt"/>
+        <line num="49" count="17" type="stmt"/>
+        <line num="56" count="17" type="stmt"/>
+        <line num="57" count="17" type="stmt"/>
+        <line num="59" count="17" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="66" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="70" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="90" count="17" type="stmt"/>
+        <line num="91" count="1" type="stmt"/>
+        <line num="92" count="1" type="stmt"/>
+        <line num="94" count="1" type="stmt"/>
+        <line num="95" count="1" type="stmt"/>
+        <line num="97" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="98" count="1" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="112" count="17" type="cond" truecount="2" falsecount="0"/>
+        <line num="144" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="190" count="1" type="stmt"/>
+        <line num="199" count="1" type="stmt"/>
+      </file>
+      <file name="create-todo-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\create-todo-form.tsx">
+        <metrics statements="42" coveredstatements="34" conditionals="19" coveredconditionals="10" methods="7" coveredmethods="4"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="14" type="stmt"/>
+        <line num="45" count="14" type="stmt"/>
+        <line num="46" count="14" type="stmt"/>
+        <line num="48" count="14" type="stmt"/>
+        <line num="61" count="14" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="64" count="14" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="71" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="75" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+        <line num="214" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="238" count="16" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
+      </file>
+      <file name="delete-todo-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\delete-todo-form.tsx">
+        <metrics statements="28" coveredstatements="15" conditionals="8" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
+        <line num="30" count="3" type="stmt"/>
+        <line num="31" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="edit-todo-form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\edit-todo-form.tsx">
+        <metrics statements="41" coveredstatements="31" conditionals="30" coveredconditionals="13" methods="7" coveredmethods="2"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="54" count="3" type="stmt"/>
+        <line num="55" count="10" type="stmt"/>
+        <line num="56" count="10" type="stmt"/>
+        <line num="57" count="10" type="stmt"/>
+        <line num="59" count="10" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="10" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="76" count="2" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="85" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="86" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="2" type="stmt"/>
+        <line num="237" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="261" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="274" count="0" type="stmt"/>
+      </file>
+      <file name="todo-detail.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\todo-detail.tsx">
+        <metrics statements="46" coveredstatements="0" conditionals="39" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="209" count="0" type="stmt"/>
+        <line num="228" count="0" type="stmt"/>
+      </file>
+      <file name="todo-list-with-filters.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\features\todos\todo-list-with-filters.tsx">
+        <metrics statements="99" coveredstatements="62" conditionals="68" coveredconditionals="34" methods="33" coveredmethods="14"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="25" count="25" type="stmt"/>
+        <line num="26" count="25" type="stmt"/>
+        <line num="27" count="25" type="stmt"/>
+        <line num="28" count="25" type="stmt"/>
+        <line num="29" count="25" type="stmt"/>
+        <line num="30" count="25" type="stmt"/>
+        <line num="31" count="25" type="stmt"/>
+        <line num="34" count="25" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="stmt"/>
+        <line num="37" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="43" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="47" count="25" type="stmt"/>
+        <line num="48" count="6" type="stmt"/>
+        <line num="49" count="6" type="stmt"/>
+        <line num="50" count="10" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="25" type="stmt"/>
+        <line num="63" count="25" type="stmt"/>
+        <line num="65" count="48" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="38" type="stmt"/>
+        <line num="67" count="38" type="stmt"/>
+        <line num="68" count="38" type="cond" truecount="2" falsecount="0"/>
+        <line num="69" count="38" type="cond" truecount="4" falsecount="0"/>
+        <line num="70" count="2" type="stmt"/>
+        <line num="75" count="46" type="cond" truecount="2" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="81" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="87" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="88" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="94" count="46" type="cond" truecount="1" falsecount="1"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="96" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="101" count="46" type="stmt"/>
+        <line num="105" count="25" type="stmt"/>
+        <line num="106" count="46" type="cond" truecount="2" falsecount="2"/>
+        <line num="108" count="24" type="stmt"/>
+        <line num="110" count="22" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="118" count="25" type="stmt"/>
+        <line num="119" count="46" type="cond" truecount="2" falsecount="2"/>
+        <line num="121" count="24" type="stmt"/>
+        <line num="123" count="22" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="131" count="25" type="stmt"/>
+        <line num="132" count="46" type="cond" truecount="2" falsecount="2"/>
+        <line num="134" count="24" type="stmt"/>
+        <line num="136" count="22" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="144" count="25" type="stmt"/>
+        <line num="145" count="46" type="cond" truecount="2" falsecount="2"/>
+        <line num="147" count="24" type="stmt"/>
+        <line num="149" count="22" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="180" count="19" type="stmt"/>
+        <line num="182" count="19" type="cond" truecount="1" falsecount="1"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="214" count="0" type="stmt"/>
+        <line num="235" count="0" type="stmt"/>
+        <line num="252" count="0" type="stmt"/>
+        <line num="277" count="0" type="stmt"/>
+        <line num="293" count="0" type="stmt"/>
+        <line num="317" count="0" type="stmt"/>
+        <line num="337" count="0" type="stmt"/>
+        <line num="368" count="46" type="stmt"/>
+        <line num="375" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="376" count="0" type="stmt"/>
+        <line num="377" count="0" type="stmt"/>
+        <line num="380" count="0" type="stmt"/>
+        <line num="416" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.layouts">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="header.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\layouts\header.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ui">
+      <metrics statements="168" coveredstatements="152" conditionals="22" coveredconditionals="19" methods="11" coveredmethods="11"/>
+      <file name="alert-dialog.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\alert-dialog.tsx">
+        <metrics statements="26" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="60" count="3" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="86" count="3" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+        <line num="111" count="3" type="stmt"/>
+        <line num="127" count="3" type="stmt"/>
+        <line num="130" count="20" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="20" type="stmt"/>
+        <line num="135" count="20" type="stmt"/>
+        <line num="136" count="20" type="stmt"/>
+        <line num="137" count="20" type="stmt"/>
+        <line num="138" count="20" type="stmt"/>
+        <line num="139" count="20" type="stmt"/>
+        <line num="140" count="20" type="stmt"/>
+      </file>
+      <file name="alert.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\alert.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="2" count="8" type="stmt"/>
+        <line num="4" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+        <line num="57" count="8" type="stmt"/>
+        <line num="59" count="5" type="stmt"/>
+      </file>
+      <file name="badge.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\badge.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="36" count="113" type="stmt"/>
+      </file>
+      <file name="button.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\button.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="10" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
+        <line num="3" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="7" count="10" type="stmt"/>
+        <line num="43" count="10" type="stmt"/>
+        <line num="45" count="335" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="10" type="stmt"/>
+        <line num="57" count="335" type="stmt"/>
+      </file>
+      <file name="card.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\card.tsx">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="8" type="stmt"/>
+        <line num="3" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="30" count="8" type="stmt"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="54" count="8" type="stmt"/>
+        <line num="62" count="8" type="stmt"/>
+        <line num="74" count="8" type="stmt"/>
+        <line num="76" count="126" type="stmt"/>
+      </file>
+      <file name="dialog.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\dialog.tsx">
+        <metrics statements="24" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="112" count="25" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="25" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="25" type="stmt"/>
+        <line num="118" count="25" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="120" count="25" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+      </file>
+      <file name="form.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\form.tsx">
+        <metrics statements="46" coveredstatements="43" conditionals="14" coveredconditionals="11" methods="7" coveredmethods="7"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="13" count="6" type="stmt"/>
+        <line num="15" count="6" type="stmt"/>
+        <line num="16" count="6" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="29" count="6" type="stmt"/>
+        <line num="42" count="6" type="stmt"/>
+        <line num="43" count="1194" type="stmt"/>
+        <line num="44" count="1194" type="stmt"/>
+        <line num="45" count="1194" type="stmt"/>
+        <line num="47" count="1194" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="1194" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="55" count="1194" type="stmt"/>
+        <line num="57" count="1194" type="stmt"/>
+        <line num="59" count="1194" type="stmt"/>
+        <line num="73" count="6" type="stmt"/>
+        <line num="75" count="6" type="stmt"/>
+        <line num="79" count="338" type="stmt"/>
+        <line num="87" count="6" type="stmt"/>
+        <line num="89" count="6" type="stmt"/>
+        <line num="93" count="283" type="stmt"/>
+        <line num="104" count="6" type="stmt"/>
+        <line num="106" count="6" type="stmt"/>
+        <line num="110" count="338" type="stmt"/>
+        <line num="126" count="6" type="stmt"/>
+        <line num="128" count="6" type="stmt"/>
+        <line num="132" count="235" type="stmt"/>
+        <line num="143" count="6" type="stmt"/>
+        <line num="145" count="6" type="stmt"/>
+        <line num="149" count="338" type="stmt"/>
+        <line num="150" count="338" type="cond" truecount="3" falsecount="1"/>
+        <line num="152" count="338" type="cond" truecount="2" falsecount="0"/>
+        <line num="153" count="336" type="stmt"/>
+        <line num="167" count="6" type="stmt"/>
+        <line num="170" count="0" type="stmt"/>
+        <line num="171" count="69" type="stmt"/>
+        <line num="172" count="374" type="stmt"/>
+        <line num="173" count="315" type="stmt"/>
+        <line num="174" count="374" type="stmt"/>
+        <line num="175" count="259" type="stmt"/>
+        <line num="176" count="374" type="stmt"/>
+        <line num="177" count="206" type="stmt"/>
+      </file>
+      <file name="input.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\input.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="190" type="stmt"/>
+      </file>
+      <file name="label.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\label.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="6" type="stmt"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="26" count="283" type="stmt"/>
+      </file>
+      <file name="select.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\select.tsx">
+        <metrics statements="24" coveredstatements="19" conditionals="5" coveredconditionals="5" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="67" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="134" count="3" type="stmt"/>
+        <line num="146" count="3" type="stmt"/>
+        <line num="149" count="172" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="172" type="stmt"/>
+        <line num="152" count="172" type="stmt"/>
+        <line num="153" count="172" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="584" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+      </file>
+      <file name="textarea.tsx" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\components\ui\textarea.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="3" count="6" type="stmt"/>
+        <line num="5" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="22" count="149" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.dal">
+      <metrics statements="25" coveredstatements="22" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="7"/>
+      <file name="projects.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\dal\projects.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="44" count="2" type="stmt"/>
+        <line num="75" count="2" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="82" count="3" type="stmt"/>
+        <line num="98" count="3" type="stmt"/>
+      </file>
+      <file name="todos.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\dal\todos.ts">
+        <metrics statements="15" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="69" count="2" type="stmt"/>
+        <line num="113" count="2" type="stmt"/>
+        <line num="119" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="136" count="3" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.lib">
+      <metrics statements="23" coveredstatements="13" conditionals="30" coveredconditionals="4" methods="3" coveredmethods="2"/>
+      <file name="auth.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\auth.ts">
+        <metrics statements="14" coveredstatements="5" conditionals="24" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="47" count="2" type="stmt"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+      </file>
+      <file name="prisma.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\prisma.ts">
+        <metrics statements="5" coveredstatements="4" conditionals="6" coveredconditionals="4" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="utils.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\utils.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="12" type="stmt"/>
+        <line num="2" count="12" type="stmt"/>
+        <line num="4" count="3501" type="stmt"/>
+        <line num="5" count="3501" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.lib.validations">
+      <metrics statements="17" coveredstatements="17" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="comment.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\validations\comment.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="15" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="17" count="17" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
+      </file>
+      <file name="project.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\validations\project.ts">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="17" type="stmt"/>
+        <line num="12" count="7" type="stmt"/>
+        <line num="17" count="10" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
+      </file>
+      <file name="todo.ts" path="C:\work\htdocs\ai-dev-project\ai-todo-list2\src\lib\validations\todo.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="4" count="14" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="21" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="10" type="stmt"/>
+        <line num="42" count="7" type="stmt"/>
+        <line num="43" count="7" type="cond" truecount="1" falsecount="1"/>
+      </file>
+    </package>
+  </project>
+</coverage>
