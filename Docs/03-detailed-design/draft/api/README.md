@@ -1,56 +1,26 @@
-# API詳細仕様
-
-このディレクトリには、各APIの詳細仕様を個別ファイルとして管理します。
+# API詳細仕様一覧
 
 ## API一覧
 
-| API名 | エンドポイント | HTTPメソッド | ファイル名 | 説明 |
-|------|--------------|------------|----------|------|
-| [API名1] | /api/... | GET | [api-name].md | |
-| [API名2] | /api/... | POST | [api-name].md | |
+### TODO管理API
+- [TODO作成](./create-todo.md)
+- [TODO更新](./update-todo.md)
+- [TODO削除](./delete-todo.md)
+- [TODOステータス切り替え](./toggle-todo-status.md)
 
-## API設計ルール
+### プロジェクト管理API
+- [プロジェクト作成](./create-project.md)
+- [プロジェクト更新](./update-project.md)
+- [プロジェクト削除](./delete-project.md)
+- [プロジェクトメンバー追加](./add-project-member.md)
 
-### エンドポイント命名規則
-- 
+### コメント管理API
+- [コメント作成](./create-comment.md)
+- [コメント更新](./update-comment.md)
+- [コメント削除](./delete-comment.md)
 
-### HTTPメソッドの使い分け
-- 
+## 注意事項
 
-### レスポンス形式
-- 
-
-### エラーレスポンス形式
-- 
-
-## APIバージョニング
-
-### バージョン管理方針
-- 
-
-### バージョン指定方法
-- 
-
-## 認証・認可
-
-### 認証方式
-- 
-
-### 認可要件
-- 
-
-## ファイル命名規則
-
-APIファイルの命名規則：
-- エンドポイントベース: `users.md`, `products.md`
-- 機能ベース: `user-authentication.md`, `product-search.md`
-- リソースベース: `user.md`, `product.md`
-
-推奨: 機能やリソースを表す分かりやすい名前を使用してください。
-
-
-
-
-
-
-
+- すべてのAPIは認証が必要です
+- エラーレスポンスは統一された形式で返却されます
+- バリデーションはZodスキーマを使用します
