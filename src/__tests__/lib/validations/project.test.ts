@@ -1,4 +1,7 @@
-import { createProjectSchema, updateProjectSchema } from "@/lib/validations/project";
+import {
+  createProjectSchema,
+  updateProjectSchema,
+} from "@/lib/validations/project";
 
 describe("createProjectSchema", () => {
   it("有効なデータでバリデーションが成功する", () => {
@@ -90,4 +93,3 @@ describe("updateProjectSchema", () => {
     expect(result.success).toBe(false);
   });
 });
-

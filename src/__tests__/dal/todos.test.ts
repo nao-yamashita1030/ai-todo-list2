@@ -182,4 +182,3 @@ describe("hasProjectAccess", () => {
     expect(result).toBe(false);
   });
 });
-

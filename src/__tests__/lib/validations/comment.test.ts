@@ -1,4 +1,7 @@
-import { createCommentSchema, updateCommentSchema } from "@/lib/validations/comment";
+import {
+  createCommentSchema,
+  updateCommentSchema,
+} from "@/lib/validations/comment";
 
 describe("createCommentSchema", () => {
   it("有効なデータでバリデーションが成功する", () => {
@@ -81,4 +84,3 @@ describe("updateCommentSchema", () => {
     expect(result.success).toBe(false);
   });
 });
-
