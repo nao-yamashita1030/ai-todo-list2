@@ -10,8 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "test:e2e": "playwright test",
-    "test:e2e:ui": "playwright test --ui"
+    "test:e2e": "chcp 65001 >nul 2>&1 & playwright test",
+    "test:e2e:ui": "chcp 65001 >nul 2>&1 & playwright test --ui"
   },
   "dependencies": {
     "@clerk/nextjs": "6.12.9",
