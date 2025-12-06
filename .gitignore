@@ -51,6 +51,10 @@ build/
 *.so
 *.dylib
 
+# Next.js
+.next/
+out/
+
 # Project specific files
 Docs/status.md
 
